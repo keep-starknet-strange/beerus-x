@@ -1,0 +1,10 @@
+{
+    "name": "Beerus-X",
+    "description": "Base Level Extension",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "beerus-x.html",
+      "default_icon": "assets/beerus-x.png"
+    }
+  }
