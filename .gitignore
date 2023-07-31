@@ -1,1 +1,10 @@
+**/*.DS_Store
+*.DS_Store
 .DS_Store
+
+beerus-js/target/
+beerus-js/node_modules/
+beerus-js/package-lock.json
+beerus-js/Cargo.lock
+beerus-js/dist/
+beerus-js/pkg/

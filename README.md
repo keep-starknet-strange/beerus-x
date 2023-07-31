@@ -25,3 +25,9 @@ A Beerus Light Client Chrome Extension.
 - navigate to `chrome://extensions`
 - enable developer mode
 - click `load unpacked` -> select root dir
+
+***compile WASM module***
+```sh
+cd beerrus-js
+cargo build --target wasm32-unknown-unknown
+```

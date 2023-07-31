@@ -3,6 +3,11 @@
     "description": "A Beerus Light Client Chrome Extension",
     "version": "1.0",
     "manifest_version": 3,
+    "icons": {
+      "16": "images/beerus-x.png",
+      "48": "images/beerus-x.png",
+      "128": "images/beerus-x.png"
+    },
     "action": {
       "default_popup": "index.html",
       "default_icon": {
@@ -13,12 +18,16 @@
     },
     "permissions": [
       "alarms",
-      "downloads",
       "tabs",
       "storage",
-      "notifications"
+      "notifications",
+      "scripting",
+      "activeTab"
     ],
     "background": {
       "service_worker": "background.js"
+    },
+    "content_security_policy": {
+      "extension_pages": "default-src 'self' 'wasm-unsafe-eval'"
     }
   }
