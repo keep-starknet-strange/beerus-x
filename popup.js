@@ -1,1 +1,1 @@
-console.log('Welcome to Beerus-X!');
+console.log('Welcome to Beerus X from Popup!');

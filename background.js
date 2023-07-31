@@ -1,0 +1,1 @@
+console.log('Welcome to Beerus X from Background!');

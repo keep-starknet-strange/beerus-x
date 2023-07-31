@@ -1,10 +1,24 @@
 {
-    "name": "Beerus-X",
-    "description": "Base Level Extension",
+    "name": "Beerus X",
+    "description": "A Beerus Light Client Chrome Extension",
     "version": "1.0",
     "manifest_version": 3,
     "action": {
-      "default_popup": "beerus-x.html",
-      "default_icon": "assets/beerus-x.png"
+      "default_popup": "index.html",
+      "default_icon": {
+        "16": "images/beerus-x.png",
+        "48": "images/beerus-x.png",
+        "128": "images/beerus-x.png"
+      }
+    },
+    "permissions": [
+      "alarms",
+      "downloads",
+      "tabs",
+      "storage",
+      "notifications"
+    ],
+    "background": {
+      "service_worker": "background.js"
     }
   }
